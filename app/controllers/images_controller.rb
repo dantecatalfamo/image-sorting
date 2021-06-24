@@ -1,9 +1,12 @@
+# typed: false
+# frozen_string_literal: true
+
 class ImagesController < ApplicationController
   before_action :set_image, only: %i[ show edit update destroy ]
 
   # GET /images or /images.json
   def index
-    @images = Image.all
+    @images = Image.order(rating: :desc)
   end
 
   # GET /images/1 or /images/1.json

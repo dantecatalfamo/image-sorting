@@ -1,12 +1,10 @@
-body {
-  background-color: #fff;
-  color: #333;
-  margin: 33px; }
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
-  line-height: 18px; }
+  line-height: 18px;
+  color: #eee
+}
 
 pre {
   background-color: #eee;
@@ -14,7 +12,7 @@ pre {
   font-size: 11px; }
 
 a {
-  color: #000; }
+  color: #eee; }
 
 a:visited {
   color: #666; }
