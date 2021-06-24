@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Path:</strong>
+  <%= @image.path %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @image.rating %>
+</p>
+
+<p>
+  <strong>Matches:</strong>
+  <%= @image.matches %>
+</p>
+
+<p>
+  <strong>Wins:</strong>
+  <%= @image.wins %>
+</p>
+
+<p>
+  <strong>Losses:</strong>
+  <%= @image.losses %>
+</p>
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>
