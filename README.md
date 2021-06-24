@@ -1,24 +1,11 @@
-# README
+# Image sorting
+## Rank images using ELO method
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Adding images
+- Copy all images to the `public/images` folder
+- Run `rake images:load`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Running the app
+- `rails db:setup`
+- `rails server`
+- Open web browser to http://127.0.0.1:3000
